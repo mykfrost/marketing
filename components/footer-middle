@@ -1,0 +1,20 @@
+<section class="card">
+      <div class="footer__colored-section">
+        <div class="team">
+          <span>Meet Our Team</span>
+        </div>
+        <div class="round-circle">
+          <h3 class="footer__body">
+            The most experienced , Specialised team across the industry
+          </h3>
+          <div class="work"><span>Work with us</span></div>
+          <div>
+            <section class="dev-container images">
+              <img class="image1" src="./images/smile1.jpg" alt="manager 1" />
+              <img class="image2" src="./images/smile2.jpg" alt="manager 3" />
+              <img class="image3" src="./images/smile3.jpg" alt="manager 2" />
+            </section>
+                     
+        </div>
+      </div>
+    </section>

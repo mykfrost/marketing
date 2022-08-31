@@ -1,0 +1,21 @@
+<section class="card">
+  <div>
+    <div class="block__header">
+      <h2 class="block__heading">Web design with a human touch</h2>
+    </div>
+    <div class="block__body">
+      <p>A strategic approach to website design and development.</p>
+    </div>
+    <div class="buttons-block">
+      <button class="button btn-shadow">
+        <span class="btn-text">Start Project</span>
+      </button>
+      <div class="email-container">
+        <img class="icon email-padding" src="./icons/email.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div>
+    <span>Circle</span>
+  </div>
+</section>

@@ -1,0 +1,8 @@
+  <section>
+      <div class="footer-buttons-container">
+        <buttton class="footer-buttons footer-buttons-black">Design</buttton>
+        <buttton class="footer-buttons">App Architecture</buttton>
+        <buttton class="footer-buttons">Design Source Files Kits</buttton>
+        <button class="footer-buttons">VR/AR</button>
+      </div>
+    </section>
