@@ -11,6 +11,104 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/"><img src="images/logo2.svg" alt="" /></a>
+      <svg class="icon--small icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Service</a></li>
+        <li class="nav__item"><a href="#">About US</a></li>
+        <li class="nav__item"><a href="#">Works</a></li>
+        <li class="nav__item"><a href="#">Team</a></li>
+        <li class="nav__item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="container grid grid--1x2">
+      <!-- Beginning of section One -->
+      <div class="card-top-section">
+        <section >
+           <div class="block__header">
+              <h1 class="block__heading">Web design with a human touch</h1>
+            </div>
+            <div class="block__body">
+              <p>A strategic approach to website design and development.</p>
+            </div>
+            <div class="buttons-block">
+              <button class="button btn-shadow">
+                <span class="btn-text">Start Project</span>
+              </button>
+              <div class="email-container">
+                <img
+                  class="icon email-padding"
+                  src="./icons/email.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          
+        </section>
+      </div>
+      <!-- End of section One -->
+
+      <!-- Beginning of Section two -->
+
+      <div class="card-top-section">
+        <section >
+          <div class="block-colored">
+            <div class="middle-image">
+              <img src="./images/laptopgirl-cropped.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Start Modifying here -->   
+    </div>
+    <div class="footer-container grid grid--1x3">
+        <div class="card">
+         <section>
+          <div class="footer-buttons-container">
+            <buttton class="footer-buttons footer-buttons-black">Design</buttton>
+            <buttton class="footer-buttons">App Architecture</buttton>
+            <buttton class="footer-buttons">Design Source Files Kits</buttton>
+            <button class="footer-buttons">VR/AR</button>
+          </div>
+        </section>
+        </div>
+        <div class="card">
+        <section >
+          <div class="footer__colored-section">
+            <div class="team">
+              <span>Meet Our Team</span>
+            </div>
+            <div class="round-circle">
+              <h3 class="footer__body">
+                The most experienced , Specialised team across the industry
+              </h3>
+              <div class="work"><span>Work with us</span></div>
+              <div>
+                <section class="dev-container images">
+                  <img class="image1" src="./images/smile1.jpg" alt="manager 1" />
+                  <img class="image2" src="./images/smile2.jpg" alt="manager 3" />
+                  <img class="image3" src="./images/smile3.jpg" alt="manager 2" />
+                </section>
+            </div>
+          </div>
+        </section>
+        </div>
+        <div class="card">
+        <section >
+          <div class="footer-last-container">
+            <div>Explore our new articles</div>
+            <div class="footer-last">
+              <h3 class="footer-last-text1">#56K+</h3>
+              <p class="footer-last-text">Project done worldwide</p>
+            </div>
+          </div>
+        </section>
+        </div>
+    </div>
     <script src="js/main.js" async defer></script>
   </body>
 </html>

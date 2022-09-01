@@ -340,9 +340,18 @@ a {
 
 .card-top-section {
   display: flex;
-  width: 400px;
-  height: 400px;
-  margin: 2rem;
+  padding: 0.5rem;
+  flex-direction: row;
+  margin: 1rem 2rem;
+}
+
+@media screen and (min-width: 768) {
+  .card-top-section {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    margin: 1rem 2rem;
+  }
 }
 
 .card__header,
@@ -532,14 +541,14 @@ a {
   justify-content: left;
   align-items: center;
   display: flex;
-  margin: 0 4rem;
+
   flex-direction: column;
 }
 .footer-container {
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   display: flex;
-  margin: 0 4rem;
+
   flex-direction: column;
 }
 @media screen and (min-width: 768px) {
@@ -547,20 +556,15 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    margin: 0 4rem;
-  }
-
-  .footer-container {
-    justify-content: left;
-    align-items: center;
-    display: flex;
-    margin: 0 4rem;
     flex-direction: row;
   }
 
-  .card {
-    width: 559px;
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    flex-direction: row;
   }
 }
 
@@ -570,14 +574,13 @@ a {
     align-items: center;
     display: flex;
     flex-direction: row;
-    margin: 0 4rem;
   }
 
   .footer-container {
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     display: flex;
-    margin: 0 4rem;
+
     flex-direction: row;
   }
 }
