@@ -322,11 +322,10 @@ a {
 }
 
 .card-top-section {
-  width: 370px;
   display: flex;
   padding: 0.5rem;
   flex-direction: row;
-  margin: 1rem 10rem;
+  margin: 1rem 1rem;
 }
 
 @media screen and (min-width: 768) {
@@ -335,6 +334,14 @@ a {
     padding: 0.5rem;
     flex-direction: column;
     margin: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 1024) {
+  .card-top-section {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    margin: 1rem 17rem;
   }
 }
 
@@ -465,7 +472,7 @@ a {
 @media screen and (min-width: 768px) {
   .block__heading {
     margin-top: 0;
-    font-size: 5.5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: #000;
   }
