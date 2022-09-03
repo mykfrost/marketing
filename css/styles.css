@@ -460,9 +460,10 @@ a {
 .block__heading {
   line-height: 1.1;
   margin-top: 0;
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 700;
   color: #000;
+  font-family: "Bebas Neue", cursive;
 }
 .block__body {
   margin-top: 0;
@@ -472,7 +473,7 @@ a {
 @media screen and (min-width: 768px) {
   .block__heading {
     margin-top: 0;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 600;
     color: #000;
   }
@@ -523,7 +524,7 @@ a {
 }
 
 .nav__item > a {
-  color: #d2d0db;
+  color: black;
   transition: color 0.3s;
 }
 
